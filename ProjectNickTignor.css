@@ -1,0 +1,130 @@
+#name{
+  font-size:1.5vw;
+  float:left;
+}
+#header{
+  font-size:4vw;
+  text-align:center;
+}
+#headerimg{
+  width:50vw;
+  margin-top:7vw;
+}
+#head{
+  border-bottom:5px solid black;
+  height:10vw;
+  background-image:url("money.gif");
+  background-color:gray;
+  position:relative;
+  margin:-8px;
+  margin-top:0px;
+}
+#hover:hover{
+  color:green;
+  cursor:pointer;
+}
+#headerimg:hover{
+  width:55vw;
+}
+#headerimg:active{
+  width:50vw;
+}
+#links{
+  background-color:black;
+  color:white;
+  width:100%;
+  height:2vw;
+  text-align:right;
+  padding-right:16px;
+  margin-left:-8px;
+  margin-top:-8px;
+  font-size:1vw;
+}
+#name, #links{
+  color:white;
+}
+a{
+  color:White;
+  text-decoration:none;
+}
+#section{
+  margin-top:25px;
+  border:5px solid #800000;
+  border-radius:25px;
+  width:65%;
+  height:25vw;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow:5px 5px 5px;
+  background-color:#FAFAD2;
+  margin-bottom:18px;
+}
+#sectiontitle{
+  background-color:white;
+  border:15px solid transparent;
+  border-image:url("image_border.png") 30% round;
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  padding-top:1vw;
+  padding-bottom:1vw;
+  font-size:2vw;
+}
+#sectiontext{
+  max-width:70%;
+  font-size:1.5vw;
+  font-family:impact;
+  margin-left:auto;
+  margin-right:auto;
+}
+#money1{
+  text-align:center;
+  display:inline;
+}
+#money2{
+  background-color:lightyellow;
+  float: left;
+  width: 5vw;
+  margin-left:5vw;
+}
+#money2:hover{
+  opacity:.75;
+}
+#footer{
+  position:sticky;
+  height:125px;
+  background:linear-gradient(to bottom right, green, #3EED7B);
+  margin-top:355px;
+  margin-left:-8px;
+  margin-right:-8px;
+  display:none;
+}
+#close{
+  display:none;
+}
+#close:hover{
+  cursor:pointer;
+}
+#name:hover{
+  cursor:pointer;
+  color:orange;
+}
+#linktotable{
+  margin-left:10vw;
+  font-size:1vw;
+  color:black;
+  border:1px solid black;
+}
+#linktolist{
+  margin-left:20vw;
+  font-size:1vw;
+  color:black;
+  border:1px solid black;
+}
+#linktoad{
+  margin-left:20vw;
+  font-size:1vw;
+  color:black;
+  border:1px solid black;
+}
